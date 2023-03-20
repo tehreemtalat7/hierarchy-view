@@ -30,7 +30,13 @@ interface HierarchicalViewProps<T> {
    * @onItemPress On Press handler for press of one row of hierarchy.
    */
   onItemPress: (obj: HierarchyData<T>) => void;
+  /**
+   * @collapsedIcon Icon to show in collapsed state.
+   */
   collapsedIcon: ImageSourcePropType;
+  /**
+   * @expandedIcon Icon to show in expanded state.
+   */
   expandedIcon: ImageSourcePropType;
   /**
    * @containerStyle (optional) These styles are applied to the outer container that contains the Flat list.
